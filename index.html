@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto Login</title>
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+
 </head>
 <body>
     <main>
@@ -16,7 +20,19 @@
             <div id="formulario">
                 <h1>Login</h1>
                 <p>Seja Bem-vindo(a) novamente! Faça login para acessar sua conta e poder fazer as configurações no seu ambiente</p>
-                <form action="login.js" method="post"></form>
+                <form action="login.js" method="post" autocomplete="on">
+                    <p class="caixa"><label for="iusu"><span class="material-symbols-outlined">
+                        person
+                        </span></label> <input type="email" name="iusu" id="iusu" required placeholder="Seu e-mail" size="30"></p>
+
+
+                    <p class="caixa"><label for="isen"><span class="material-symbols-outlined">
+                        vpn_key
+                        </span></label> <input type="password" name="isen" id="isen" required minlength="8" placeholder="Sua senha" size="30"></p>
+
+                        <p><input type="submit" value="Entrar" ></p>
+                        <p><input type="reset" value="Esqueci a senha"></p>
+                </form>
             </div>
         </section>
 

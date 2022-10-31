@@ -1,2 +1,12 @@
 @charset "UTF-8";
 
+* {font-family: Arial, Helvetica, sans-serif;}
+
+
+body {background-color: rgb(93, 52, 132);}
+
+div#formulario {background-color: white; width: 55vw; margin: auto;  border-radius: 0px 0px 10px 10px; text-align: center;padding: 10px 5px 20px 5px;}
+
+input {background-color: #94CFCD; border-radius: 5px;height: 30px; text-align: center;}
+
+.caixa {background-color:rgb(93, 52, 132);border-radius: 10px;}
