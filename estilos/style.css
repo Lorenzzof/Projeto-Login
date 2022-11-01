@@ -1,12 +1,18 @@
 @charset "UTF-8";
 
-* {font-family: Arial, Helvetica, sans-serif;}
+*{font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; padding: 0px; margin: 0px;box-sizing: border-box;}
 
 
-body {background-color: rgb(93, 52, 132);}
+body,html {background-color: rgb(0, 87, 41); height: 100vh; width: 100vw;}
 
-div#formulario {background-color: white; width: 55vw; margin: auto;  border-radius: 0px 0px 10px 10px; text-align: center;padding: 10px 5px 20px 5px;}
 
-input {background-color: #94CFCD; border-radius: 5px;height: 30px; text-align: center;}
+main {height: 100vh;width: 100vw; position: relative;}
 
-.caixa {background-color:rgb(93, 52, 132);border-radius: 10px;}
+section#login {background-color: white; height: 500px;width: 250px; position: absolute; top:50%; left: 50%; transform: translate(-50%,-50%);border-radius: 20px; overflow: hidden; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.468);}
+
+
+
+section#login > div#imagem { background:rgb(0, 87, 41) url(../imagens/pexels-tetyana-kovyrina-14019501.jpg); height: 200px; background-repeat: no-repeat; background-size: cover; display: block;}
+
+
+section#login > div#formulario {padding: 10px; display: block;}
