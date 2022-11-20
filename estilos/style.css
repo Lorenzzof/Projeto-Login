@@ -8,7 +8,7 @@ body,html {background-color: rgb(0, 87, 41); height: 100vh; width: 100vw;}
 
 main {height: 100vh;width: 100vw; position: relative;}
 
-section#login {background-color: white; height: 500px;width: 250px; position: absolute; top:50%; left: 50%; transform: translate(-50%,-50%);border-radius: 20px; overflow: hidden; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.468);}
+section#login {background-color: white; height: 500px;width: 250px; position: absolute; top:50%; left: 50%; transform: translate(-50%,-50%);border-radius: 20px; overflow: hidden; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.468); transition: width .3s, height .3s;}
 
 
 
